@@ -6,10 +6,11 @@ while (true) {
   while (scan(direction) > 280) {
     direction = direction+5;
     swim(direction, 100);
-    if(cannon()===false)
+    if(test===false)
     {
       swim(direction+180,100);
     }
   }
   cannon(direction, scan(direction));
+  var test=cannon();
 }
