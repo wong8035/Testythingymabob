@@ -1,6 +1,7 @@
 var direction;
 var target;
 var i=1;
+var test=cannon();
 direction = 0;
 while (true) {
   while (scan(direction) > 280) {
