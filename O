@@ -1,0 +1,11 @@
+var degree = 0;
+while (true) {
+  while (scan(degree) >= 90) {
+    degree += 5;
+    swim(degree);
+  }
+  cannon(degree, scan(degree));
+  if (scan(degree) <=20) {
+    degree += 180;
+  }
+}
