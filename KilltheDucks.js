@@ -8,10 +8,10 @@ direction_scan = 0;
 var i = 0;
 while (i < 500) {
   if (loc_x() < 25) {
-    swim(0,100);
+    swim(350,100);
   } else {
     if (loc_x() > 75) {
-      swim(180,100);
+      swim(170,100);
     }
   }
   
