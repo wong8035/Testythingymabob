@@ -1,0 +1,23 @@
+var degree = 0;
+var i = 0;
+while (i < 500) {
+  while (scan(degree) >= 90) {
+    degree += 5;
+    swim(degree);
+  }
+  cannon(degree, scan(degree));
+  if (scan(degree) <=20) {
+    degree += 180;
+  }
+  i ++;
+}
+while (true){
+while (scan(degree) >= 90) {
+    degree += 5;
+  }
+  swim(degree, 100);
+  cannon(degree, scan(degree));
+  if (speed() === 0){
+    degree + 50;
+  }
+}
