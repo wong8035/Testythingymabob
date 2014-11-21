@@ -9,7 +9,7 @@ while (true) {
     }
   }
   while (scan(direction) > 280) {
-    direction = (typeof direction == 'number' ? direction : 0) + 5;
+    direction = direction + 5;
   }
   cannon(direction, scan(direction));
 }
